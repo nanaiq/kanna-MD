@@ -11,21 +11,21 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner X-ZC tidak menerima save contact
+• Owner X-ZC tidak menerima save contact, kecuali cwe
 • Owner X-ZC berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner X-ZC Hanya merespon yang berkaitan dengan BOT
 • No Telp owner X-ZC`
 
 //------------ BIO
-let ppown = 'https://telegra.ph/file/e8f6c7288a8d34157d54e.jpg'
+let ppown = 'https://telegra.ph/file/6daffe7a858629323dd10.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
 ❑ *Nama* : X
 ❑ *Umur* : 20 Tahun
 ❑ *Kelas* : Kepo lu su
 
-❑ *Ulang Tahun* : 4 juli 2007
-❑ *Alamat* : Indonesia, Kalimantan barat, Pontianak
+❑ *Ulang Tahun* : - 
+❑ *Alamat* : Mars
 
 ${htjava} *Instagram:* ${sig}
 ${htjava} *Github:* ${sgh}
