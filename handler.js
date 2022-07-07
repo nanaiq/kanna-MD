@@ -283,7 +283,7 @@ export async function handler(chatUpdate) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true 
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -297,29 +297,29 @@ export async function handler(chatUpdate) {
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = false
+                    chat.antiLink = true
                 if (!('viewonce' in chat))
-                    chat.viewonce = false
+                    chat.viewonce = true
                 if (!('antiToxic' in chat))
-                    chat.antiToxic = false
+                    chat.antiToxic = true
                 if (!('simi' in chat))
-                    chat.simi = false
+                    chat.simi = true
                 if (!isNumber(chat.expired))
                     chat.expired = 0
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
-                    viewonce: false,
+                    antiLink: true,
+                    viewonce: true,
                     antiToxic: true,
-                    simi: false,
+                    simi: true,
                     expired: 0,
                 }
             let settings = global.db.data.settings[this.user.jid]
@@ -756,8 +756,8 @@ global.dfail = (type, m, conn) => {
     let msgg = {
     	unreg: 'Halo kak ! 👋\nAnda belum terdaftar didalam Database BOT 🗂️\n\nKlick Tombol dibawah Untuk Mendaftar Ke Database BOT !'
 }[type]
-if (msgg) return conn.sendHydrated(m.chat, msgg, global.wm, null, global.sgc, '🌎 Join My Group Official', `${m.sender.split`@`[0]}`, '🌹 U S E R', [
-      ['▣ VERIFY ▣', '/daftar'],
+if (msgg) return conn.sendHydrated(m.chat, msgg, global.wm, null, global.sgc, 'Join My Group Official', `${m.sender.split`@`[0]}`, 'U S E R', [
+      ['VERIFY', '/daftar'],
       [null,null],
       [null, null]
     ], m)
