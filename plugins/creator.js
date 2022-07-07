@@ -22,7 +22,7 @@ let ppown = 'https://telegra.ph/file/6daffe7a858629323dd10.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
 ❑ *Nama* : X
 ❑ *Umur* : 20 Tahun
-❑ *Kelas* : Kepo lu su
+❑ *Insta* : https://instagram.com/hai_om.qw
 
 ❑ *Ulang Tahun* : - 
 ❑ *Alamat* : Mars
