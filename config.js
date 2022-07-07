@@ -42,7 +42,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 /*============== SOCIAL ==============*/
 global.sig = 'http://tiny.cc/Nathalie'
-global.sgh = 'http://tiny.cc/Nathalie'
+global.sgh = 'http://yandex.com'
 global.sgc = 'http://tiny.cc/X-ZC'
 global.sdc = 'http://tiny.cc/X-ZC'
 global.snh = 'https://xxx.com'
@@ -62,9 +62,9 @@ global.nameown = 'X'
 /*============== STAFF ==============*/
 global.owner = [
   ['6285641476033'],
-  ['6285641476033'],
-  ['6285641476033'],
-  ['6285641476033', 'Bapakmu', true]
+  ['6281227250948'],
+  ['6281227250948'],
+  ['6285641476033', 'X-ZC', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -163,10 +163,10 @@ global.dmenuf = '┗––––––––––✦' //footer
 // COMMAND MENU
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
-global.cmenub = '┊☃︎ ' //body
+global.cmenub = '⫹⫺' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
-global.pmenus = '☃︎' //pembatas menu selector
+global.cmenua = '\n BATAS COMAND \n     ' //after
+global.pmenus = '⫹⫺' //pembatas menu selector
 
 global.htki = '––––––『' //hiasan title kiri
 global.htka = '』––––––' //hiasan title kanan
